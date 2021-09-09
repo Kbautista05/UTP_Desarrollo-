@@ -11,8 +11,7 @@
     
     <nav class="menu">
         <section class="menu__container">
-            <h1 class="menu__logo"></h1>
-            <a class="logo"><img src="img/logo.png"></a>
+            <h1 class="menu__logo"> <img class="logo" src="img/logo.png"></h1>
             <ul class="menu__links">
                 <li class="menu__item">
                     <a href="#" class="menu__link">Inicio</a>
@@ -21,13 +20,13 @@
                     <a href="#" class="menu__link">Proyectos<img class="menu__arrow" src="img/arrow.svg"></a>
                     <ul class="menu__nesting">
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item1</a>
+                            <a href="#" class="menu__link menu__link--inside">Tilapias</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item2</a>
+                            <a href="#" class="menu__link menu__link--inside">Tours</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item2</a>
+                            <a href="#" class="menu__link menu__link--inside">Insumos</a>
                         </li>
                     </ul>
                 </li>
@@ -35,26 +34,59 @@
                     <a href="#" class="menu__link">Inventarios<img class="menu__arrow" src="img/arrow.svg"></a>
                     <ul class="menu__nesting">
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item1</a>
+                            <a href="#" class="menu__link menu__link--inside">Tilapias</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item2</a>
+                            <a href="#" class="menu__link menu__link--inside">Tours</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="#" class="menu__link menu__link--inside">Item2</a>
+                            <a href="#" class="menu__link menu__link--inside">Insumos</a>
                         </li>
                     </ul>
                 </li>
                 <li class="menu__item">
-                    <a href="#" class="menu__link">Contacto</a>
+                    <a href="contact.html" class="menu__link">Contacto</a>
                 </li>
             </ul>
             <div class="menu__hamburguer">
                 <img class="menu__img" src="img/menu.svg">
             </div>
+            <div class="menu__user">
+                <img class="menu__img" src="img/usuario.svg">
+            </div>
+            <div class="menu__compra">
+                <img class="menu__img" src="img/compra.svg">
+            </div>
         </section>
         
     </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sol y mar.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Pez.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/logo.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
     <script src="js/app.js">
     </script>
 </body>
