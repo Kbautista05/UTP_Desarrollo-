@@ -9,9 +9,31 @@
 body {
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
-    background-color: #f1f1f148;
-    background-image: linear-gradient(to right, #457af762, #457af762 6.5px, #f1f1f148 6.5px, #f1f1f148 );
-    background-size: 13px 100%;
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#444cf7 0.75px, transparent 0.75px), radial-gradient(#444cf7 0.75px, #e5e5f7 0.75px);
+    background-size: 30px 30px;
+}
+.imagen-central {
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.imagen {
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parrafo1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #73C6B6;
+    border-radius: 12px;
+    background-color: #fff;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 20px;
 }
 .logo{
     position: absolute;
